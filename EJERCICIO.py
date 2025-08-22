@@ -1,11 +1,11 @@
 def revision_destartalado():
     while True: 
         print("¿Hola, cómo está? necesita que le colabore con algo?")
-        rta = input("RESPONDA: SI o NO: ")
+        rta = input("RESPONDA: si o no: ")
         
         while rta.strip().lower() not in ("si", "no"):
             print("No le entiendo, si o no??")
-            rta = input("RESPONDA: SI o NO: ").strip().lower()
+            rta = input("RESPONDA: si o no: ").strip().lower()
 
         if rta.strip().lower() == "si":
             print("Ok, cuéntame qué sucede con el destartalado. \n") 
@@ -43,7 +43,7 @@ def revision_destartalado():
             break 
 
         print("\n¿¿Necesita que revise algo más??")
-        final = input("RESPONDA: SI o NO: ").strip().lower()
+        final = input("RESPONDA: si o no: ").strip().lower()
         if final == "no":
             print("Nos vemos.")
             break  
